@@ -7,16 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="waa-june-2002-spring-security" />
+        <module name="waa-june-2022-spring-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="waa-june-2002-spring-security" target="17" />
+      <module name="waa-june-2022-spring-security" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="waa-june-2002-spring-security" options="-parameters" />
+      <module name="waa-june-2022-spring-security" options="-parameters" />
     </option>
   </component>
 </project>
